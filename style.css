@@ -5,17 +5,17 @@
     text-align: center;
     list-style: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 .top-nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     height: 30px;
 }
 .nav-buttons{
     width: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 #top-nav-list{
@@ -32,3 +32,24 @@
 .logo{
     border-radius: 100%;
 }
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: cyan;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.main-section{
+    text-align: center;
+
+}
+    
