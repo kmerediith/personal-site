@@ -4,7 +4,22 @@
 .nav{
     text-align: center;
     list-style: none;
-    padding-right: 50px;
+    margin: 0;
+    padding: 0; 
+}
+.top-nav{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.nav-buttons{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#top-nav-list{
+    display: inline-block;
 }
 .box{
     display: flex;
@@ -13,4 +28,7 @@
     flex-direction: column;
     width: 100%;
     height: 800px; 
+}
+.logo{
+    border-radius: 100%;
 }
