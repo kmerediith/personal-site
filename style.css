@@ -33,7 +33,7 @@
     border-radius: 100%;
 }
 body{
-    background-color: #FAF0CA;
+    background-color: #000000;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,4 +52,17 @@ a{
     text-align: center;
 
 }
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
     
