@@ -56,7 +56,6 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 .fa {
     padding: 20px;
@@ -65,4 +64,7 @@ a{
     text-align: center;
     text-decoration: none;
   }
+footer{
+    margin-top: 250px;
+}
     
