@@ -33,7 +33,7 @@
     border-radius: 100%;
 }
 body{
-    background-color: #000000;
+    background-color: #EFEFD0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,7 +42,7 @@ li a{
     text-decoration: none;
 }
 a:hover{
-    color: #FF8C42;
+    color: #FF6B35;
 }
 a{
     color: white;
@@ -66,5 +66,21 @@ a{
   }
 footer{
     margin-top: 250px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.km-logo{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 100%;
 }
     
